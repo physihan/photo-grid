@@ -22,8 +22,8 @@ module.exports = {
         // loader: 'style!css'
         // loader:extractTextPlugin.extract("css"),
         // loader:extractTextPlugin.extract("css"),
-        loader:extractTextPlugin.extract("css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]"),
-        
+        loader:extractTextPlugin.extract("css?modules&importLoaders=2&localIdentName=[name]_[local]___[hash:base64:5]"),
+        // 很是不理解巨坑一个
       }
     ],
 
