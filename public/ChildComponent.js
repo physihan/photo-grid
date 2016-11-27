@@ -13,7 +13,7 @@ class ChildComponent extends Component {
        <PhotoGrid number="3"/>
        <PhotoGrid number="4"/>
        <PhotoGrid number="5"/>
-       <PhotoGrid number="8"/>
+       <PhotoGrid number="6"/>
       </div>
     )
   }

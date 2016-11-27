@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var extractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
+  devtool:'source-map',
   entry: {
     bundle: "./public/app.js",
     vendor: ['react']
