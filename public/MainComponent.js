@@ -1,7 +1,8 @@
 import React, { Component, PropTypes } from 'react'
 // import { Jumbotron } from 'react-bootstrap'
 import MyNav from './components/Nav'
-import styles from './css/main.css';
+import { Grid } from 'react-bootstrap'
+// import styles from './css/main.css'
 class MainComponent extends Component {
   constructor (props) {
     super(props)
@@ -10,14 +11,14 @@ class MainComponent extends Component {
     return (
       <div>
         <MyNav/>
-        <div className={styles.container}>
+        <Grid>
           {this.props.children}
-        </div>
+        </Grid>
       </div>
     )
   }
 }
-
+// fluid={true}让container编程container-fluid
 // MainComponent.propTypes = {
 
 // }

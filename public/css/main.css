@@ -1,13 +1,19 @@
-h1{
-    color:orangered;
+html {
+  overflow-y: scroll;
 }
-.grid{
-    height:200px;
-    width:200px;
-    border: 1px solid black;
-}
-.container{
 
-    width: 80%;
-    margin: 20px auto;
+:root {
+  overflow-y: auto;/*如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。*/
+  overflow-x: hidden;
 }
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+/*或者一直显示进度条*/
+/*overflow-y:scroll;*/

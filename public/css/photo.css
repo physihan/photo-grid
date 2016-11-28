@@ -2,7 +2,9 @@ h1{
     color: red;
 }
 .grid{
-    height: 250px;
+    text-align: center;
+    padding: 5px;
+    /*height: 250px;*/
     border:1px solid transparent;
    box-shadow:1px 1px 3px 1px #111;  
 }

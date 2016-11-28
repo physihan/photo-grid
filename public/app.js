@@ -8,6 +8,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import MainComponent from './MainComponent'
 import ChildComponent from './ChildComponent'
+import './css/main.css';
 // const store = createStore(counterApp,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 const store = createStore(combineReducers({
   global: counterApp,
