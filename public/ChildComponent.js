@@ -15,9 +15,9 @@ class ChildComponent extends Component {
           <PhotoGrid number='3' />
         </Row>
         <Row>
-          <PhotoGrid number='1' />
-          <PhotoGrid number='2' />
-          <PhotoGrid number='3' />
+          <PhotoGrid number='4' />
+          <PhotoGrid number='5' />
+          <PhotoGrid number='6' />
         </Row>
       </div>
     )
